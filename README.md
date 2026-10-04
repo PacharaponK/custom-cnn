@@ -12,10 +12,10 @@ Test mean IoU **0.81213494** · detected IoU≥0.6 **400/400**
 - pyproject.toml, uv.lock และ .python-version สำหรับ environment ด้วย uv
 - Manifest/split/exclusions/dedup records และ initial/final checkpoint ของ final run
 - Metrics CSV/JSON, กราฟ/6 inference snapshots และ TensorBoard event file
-- [Architecture](custom-unet-architecture.md), [HTML report](Assignment10-6610110190.html) และ [Word report](Assignment10-6610110190.docx)
+- [Architecture](custom-unet-architecture.md) และ build_report.py สำหรับสร้าง HTML report ในเครื่อง
 
 Dataset JPG/XML, prepared images/masks/NPZ caches, prediction masks, environments, local paths,
-ZIP และ QA intermediates ไม่อยู่ใน Git; สร้างข้อมูลและ prediction ใหม่ด้วยขั้นตอนด้านล่าง
+รายงาน HTML/Word/PDF, ZIP และ QA intermediates ไม่อยู่ใน Git; สร้างข้อมูลและ prediction ใหม่ด้วยขั้นตอนด้านล่าง
 
 ## Environment
 
@@ -108,7 +108,7 @@ GPU allocated/reserved ไม่รวม CUDA driver/context; CPU RSS sampled5m
 E2E รวม JPEG/resize/model/mask/PNG encoding ใน memory ไม่รวม disk write.
 ค่าที่วัดใหม่ขึ้นกับ hardware และไม่ใช้แทนผลเดิมโดยไม่บันทึก run/provenance
 
-HTML อ่านได้ offline เพราะฝังภาพไว้แล้ว. build_report.py ใช้ evidence ของ final run ที่แนบ
+รายงาน HTML/Word/PDF เก็บไว้ในเครื่องและถูก ignore. HTML ที่สร้างอ่านได้ offline เพราะฝังภาพไว้แล้ว. build_report.py ใช้ evidence ของ final run ที่แนบ
 จึง rebuild HTML ของ final run ได้หลัง verification. รายงาน Word ใช้ TH Sarabun New เนื้อหา16pt
 ตัวอักษรและตารางขาวดำ; ภาพผลทดลองคงสีเดิม. Scripts เฉพาะเครื่องสำหรับ Word/ZIP/export vault ไม่อยู่ใน Git
 รายงานถูกสร้างก่อน Git publication; สถานะ publication ที่ปรากฏในรายงานเป็นประวัติ ณ เวลาสร้าง

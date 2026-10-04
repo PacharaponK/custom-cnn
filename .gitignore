@@ -57,4 +57,7 @@ build_word_report.py
 export_evidence.py
 package_submission.py
 review_package.py
+# Generated reports stay local
+*.html
+*.docx
 *.pdf
