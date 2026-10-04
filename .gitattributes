@@ -1,0 +1,18 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.png binary
+*.pt binary
+*.docx binary
+*.html -text
+# Preserve experiment hashes and original raw evidence bytes.
+uv.lock -text
+data/** -text
+result/** -text
+runs/** -text
+
+.python-version text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,59 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.cache/
+# Personal/local configuration
+config.local.json
+vault-evidence/
+~$*
+.DS_Store
+Thumbs.db
+# Large source and derived datasets
+source-dataset/
+data-reference/
+data/**
+!data/manifest.csv
+!data/split.json
+!data/excluded-images.csv
+!data/duplicate-copies.csv
+# Only the measured final checkpoint is versioned
+checkpoints/**
+!checkpoints/f10-20261004-132719-s6610110190-w64h36-b4-e30/
+!checkpoints/f10-20261004-132719-s6610110190-w64h36-b4-e30/initial.pt
+!checkpoints/f10-20261004-132719-s6610110190-w64h36-b4-e30/last.pt
+# Final TensorBoard events only
+runs/**
+!runs/f10-20261004-132719-s6610110190-w64h36-b4-e30/
+!runs/f10-20261004-132719-s6610110190-w64h36-b4-e30/events.out.tfevents.*
+# Selected final-run evidence
+result/**
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/environment.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/evaluation-summary.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/inference-memory.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/inference-summary.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/preparation-summary.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/report-build.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/smoke-check.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/snapshots.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/source-audit.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/training-summary.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/verification.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/evaluation-per-image.csv
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/memory-end-to-end-latencies.csv
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/memory-forward-latencies.csv
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/metrics.csv
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/prediction-manifest.csv
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/*.png
+result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/conversion-*.png
+result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/train-preview-*.png
+# Local submission and document-building helpers
+submission/
+build_word_report.py
+export_evidence.py
+package_submission.py
+review_package.py
+*.pdf
