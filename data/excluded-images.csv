@@ -1,0 +1,6 @@
+﻿basename,frame,reason
+frame_0400_f10374.jpg,400,conflicting_gt
+frame_0401_f10400.jpg,401,conflicting_gt
+frame_0451_f11697.jpg,451,uncertain_lane_label
+frame_0452_f11722.jpg,452,uncertain_lane_label
+frame_0544_f14108.jpg,544,uncertain_lane_label

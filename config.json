@@ -1,0 +1,41 @@
+{
+  "source_dataset": "source-dataset",
+  "vault_assignment": "vault-evidence",
+  "dataset_version": "lane-v1-exclude5",
+  "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+  "seed": 6610110190,
+  "width": 64,
+  "height": 36,
+  "batch_size": 4,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "probability_threshold": 0.5,
+  "detection_iou_threshold": 0.6,
+  "excluded_frames": [
+    400,
+    401,
+    451,
+    452,
+    544
+  ],
+  "train_last_frame": 749,
+  "test_first_frame": 803,
+  "augmentation": {
+    "white_balance_probability": 0.3,
+    "white_balance_range": [
+      0.95,
+      1.05
+    ],
+    "brightness_probability": 0.3,
+    "brightness_range": [
+      0.9,
+      1.1
+    ],
+    "blur_probability": 0.2,
+    "blur_radius_range": [
+      0.2,
+      0.8
+    ]
+  },
+  "num_workers": 0
+}
