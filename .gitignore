@@ -36,6 +36,7 @@ result/**
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/inference-summary.json
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/preparation-summary.json
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/report-build.json
+!result/f10-20261004-132719-s6610110190-w64h36-b4-e30/pipeline-history.json
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/smoke-check.json
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/snapshots.json
 !result/f10-20261004-132719-s6610110190-w64h36-b4-e30/source-audit.json

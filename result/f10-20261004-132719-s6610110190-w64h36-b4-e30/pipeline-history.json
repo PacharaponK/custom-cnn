@@ -1,0 +1,344 @@
+[
+  {
+    "time": "2026-10-04T13:27:19.051340+07:00",
+    "step": "prepare_data",
+    "state": "started",
+    "argv": [
+      "prepare_data.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:27:44.066859+07:00",
+    "step": "prepare_data",
+    "state": "completed",
+    "argv": [
+      "prepare_data.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "source_image_files": 1200,
+    "unique_image_names": 1148,
+    "duplicate_copies_removed": 52,
+    "excluded_images": [
+      {
+        "basename": "frame_0400_f10374.jpg",
+        "frame": 400,
+        "reason": "conflicting_gt"
+      },
+      {
+        "basename": "frame_0401_f10400.jpg",
+        "frame": 401,
+        "reason": "conflicting_gt"
+      },
+      {
+        "basename": "frame_0451_f11697.jpg",
+        "frame": 451,
+        "reason": "uncertain_lane_label"
+      },
+      {
+        "basename": "frame_0452_f11722.jpg",
+        "frame": 452,
+        "reason": "uncertain_lane_label"
+      },
+      {
+        "basename": "frame_0544_f14108.jpg",
+        "frame": 544,
+        "reason": "uncertain_lane_label"
+      }
+    ],
+    "candidate_images": 1143,
+    "train_images": 743,
+    "test_images": 400,
+    "polygon_target": "lane area only",
+    "mask_values": [
+      0,
+      255
+    ],
+    "rasterization": "PIL polygon fill; clip x/y to pixel bounds; YOLO roundtrip rounded to source 0.01 px",
+    "roundtrip_mismatches": 0,
+    "manifest_hash": "2619adc2a95a3a18cca1bc16efa53881044c6f7cc09ecbc4fa9b08243edd39bf",
+    "elapsed_seconds": 24.475030499999775
+  },
+  {
+    "time": "2026-10-04T13:27:48.446496+07:00",
+    "step": "smoke",
+    "state": "started",
+    "argv": [
+      "train.py",
+      "--smoke"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:28:01.819749+07:00",
+    "step": "smoke",
+    "state": "completed",
+    "argv": [
+      "train.py",
+      "--smoke"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "device": "cuda",
+    "samples": 8,
+    "steps": 100,
+    "initial_loss": 0.6980372667312622,
+    "final_loss": 0.14983977377414703,
+    "parameters": 29761,
+    "passed": true,
+    "weights_reused_for_final": false
+  },
+  {
+    "time": "2026-10-04T13:28:55.169610+07:00",
+    "step": "train",
+    "state": "started",
+    "argv": [
+      "train.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:29:35.512560+07:00",
+    "step": "train",
+    "state": "completed",
+    "argv": [
+      "train.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "epochs": 30,
+    "samples_per_epoch": 743,
+    "global_steps": 5580,
+    "parameters": 29761,
+    "parameter_bytes": 119044,
+    "from_scratch": true,
+    "pretrained_weights_loaded": false,
+    "checkpoint_policy": "final epoch; no test selection",
+    "initial_hash": "a1baa8af636581a4999b54aea53d18faef2648d3b1a14f35e82449b2525ff6b0",
+    "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+    "elapsed_seconds": 38.43038800000022,
+    "initial_epoch_loss": 0.3342284651455616,
+    "final_epoch_loss": 0.026808322789611278,
+    "completed_at": "2026-10-04T13:29:35.505427+07:00"
+  },
+  {
+    "time": "2026-10-04T13:30:49.067260+07:00",
+    "step": "predict",
+    "state": "started",
+    "argv": [
+      "predict.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:31:03.683474+07:00",
+    "step": "predict",
+    "state": "completed",
+    "argv": [
+      "predict.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "test_images": 400,
+    "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+    "mask_size": [
+      1280,
+      720
+    ],
+    "probability_threshold": 0.5,
+    "resize_policy": "bilinear probabilities before threshold; align_corners=False",
+    "device": "cuda",
+    "elapsed_seconds": 14.606794799999989
+  },
+  {
+    "time": "2026-10-04T13:31:04.607344+07:00",
+    "step": "evaluate",
+    "state": "started",
+    "argv": [
+      "evaluation.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:31:12.446833+07:00",
+    "step": "evaluate",
+    "state": "completed",
+    "argv": [
+      "evaluation.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "test_images": 400,
+    "detected_ge_0_6": 400,
+    "detected_gt_0_6": 400,
+    "exact_threshold_images": 0,
+    "detected_rate": 1.0,
+    "mean_iou_detected": 0.8121349416334668,
+    "mean_iou_all": 0.8121349416334668,
+    "median_iou": 0.807719286553796,
+    "min_iou": 0.6856044478727061,
+    "max_iou": 0.9644699877681361,
+    "empty_empty_images": 0,
+    "threshold": 0.6,
+    "main_comparator": ">=",
+    "empty_empty_policy": "IoU=1, count explicitly",
+    "detection_flag_meaning": "GT-based post-inference success, not model confidence"
+  },
+  {
+    "time": "2026-10-04T13:31:15.085434+07:00",
+    "step": "measure_memory",
+    "state": "started",
+    "argv": [
+      "measure_memory.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30"
+  },
+  {
+    "time": "2026-10-04T13:31:17.220840+07:00",
+    "step": "measure_memory",
+    "state": "completed",
+    "argv": [
+      "measure_memory.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "device": "cuda",
+    "dtype": "float32",
+    "batch_size": 1,
+    "input_wh": [
+      64,
+      36
+    ],
+    "original_image_wh": [
+      1280,
+      720
+    ],
+    "warmup_iterations": 10,
+    "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+    "parameters": 29761,
+    "parameter_bytes": 119044,
+    "buffer_bytes": 0,
+    "checkpoint_bytes": 127181,
+    "cold_pre_model_cpu_rss_mib": 483.23046875,
+    "cold_load_and_warmup_gpu": {
+      "peak_allocated_mib": 0.65576171875,
+      "peak_reserved_mib": 2.0
+    },
+    "forward": {
+      "mode": "forward",
+      "repetitions": 100,
+      "rss_sampling_interval_ms": 5,
+      "baseline_cpu_rss_mib": 889.203125,
+      "sampled_peak_cpu_rss_mib": 889.61328125,
+      "gpu": {
+        "baseline_allocated_mib": 0.14599609375,
+        "baseline_reserved_mib": 2.0,
+        "peak_allocated_mib": 0.65576171875,
+        "peak_reserved_mib": 2.0,
+        "incremental_peak_allocated_mib": 0.509765625
+      },
+      "median_latency_ms": 1.084649999938847,
+      "mean_latency_ms": 1.3133899999957066,
+      "min_latency_ms": 0.9359000005133566,
+      "max_latency_ms": 3.901699999914854
+    },
+    "end_to_end": {
+      "mode": "end-to-end",
+      "repetitions": 100,
+      "rss_sampling_interval_ms": 5,
+      "baseline_cpu_rss_mib": 889.69921875,
+      "sampled_peak_cpu_rss_mib": 935.66796875,
+      "gpu": {
+        "baseline_allocated_mib": 0.14599609375,
+        "baseline_reserved_mib": 2.0,
+        "peak_allocated_mib": 5.44580078125,
+        "peak_reserved_mib": 22.0,
+        "incremental_peak_allocated_mib": 5.2998046875
+      },
+      "median_latency_ms": 14.930250000361411,
+      "mean_latency_ms": 16.118730000034702,
+      "min_latency_ms": 13.717599999836239,
+      "max_latency_ms": 49.179600000570645
+    },
+    "gpu_scope": "PyTorch tensors/reserved allocator; excludes CUDA context/driver/non-PyTorch allocations",
+    "rss_scope": "whole process after imports; sampled peak may miss transient spikes",
+    "end_to_end_scope": "read JPEG, RGB resize, forward, sigmoid/upscale/threshold, CPU copy, in-memory PNG encoding; no disk write"
+  },
+  {
+    "time": "2026-10-04T13:34:47.857492+07:00",
+    "step": "export_evidence",
+    "state": "completed",
+    "argv": [
+      "export_evidence.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "destination": "D:\\CoE Y.4 T.1\\241-353\\ai-eco_vault\\P.Fern\\Assignments\\F10_14-09-69\\results\\runs\\f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "evidence_files": 46
+  },
+  {
+    "time": "2026-10-04T13:39:18.910215+07:00",
+    "step": "verify_results",
+    "state": "completed",
+    "argv": [
+      "verify_results.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "passed": true,
+    "test_masks_recomputed": 400,
+    "checkpoint_reload_prediction_matches": [
+      "frame_0803_f20826.jpg",
+      "frame_1202_f31173.jpg"
+    ],
+    "train_test_hash_overlap": 0,
+    "epochs": 30,
+    "environment_lock_hash": "159fa13e60ae1f925633f32e0e18c487ea68ce5c2d0a802f29a8612da96ca6ec"
+  },
+  {
+    "time": "2026-10-04T13:39:20.155039+07:00",
+    "step": "build_report",
+    "state": "completed",
+    "argv": [
+      "build_report.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "report_hash": "c483ede1c9be01a36079fff193437fa35719eeac52bd1ee3ef340f33008dedc4"
+  },
+  {
+    "time": "2026-10-04T13:41:08.642431+07:00",
+    "step": "export_evidence",
+    "state": "completed",
+    "argv": [
+      "export_evidence.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "destination": "D:\\CoE Y.4 T.1\\241-353\\ai-eco_vault\\P.Fern\\Assignments\\F10_14-09-69\\results\\runs\\f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "evidence_files": 53
+  },
+  {
+    "time": "2026-10-04T13:48:37.820612+07:00",
+    "step": "build_report",
+    "state": "completed",
+    "argv": [
+      "build_report.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "report_hash": "57c443a8ff595152cd971843de5e4f8d8073ac960f1376cba493509197bd20b3"
+  },
+  {
+    "time": "2026-10-04T13:48:38.667415+07:00",
+    "step": "export_evidence",
+    "state": "completed",
+    "argv": [
+      "export_evidence.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "destination": "D:\\CoE Y.4 T.1\\241-353\\ai-eco_vault\\P.Fern\\Assignments\\F10_14-09-69\\results\\runs\\f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "evidence_files": 53
+  },
+  {
+    "time": "2026-10-04T13:52:09.788053+07:00",
+    "step": "export_evidence",
+    "state": "completed",
+    "argv": [
+      "export_evidence.py"
+    ],
+    "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "destination": "D:\\CoE Y.4 T.1\\241-353\\ai-eco_vault\\P.Fern\\Assignments\\F10_14-09-69\\results\\runs\\f10-20261004-132719-s6610110190-w64h36-b4-e30",
+    "evidence_files": 56
+  }
+]
