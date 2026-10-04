@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-04T13:48:37.573512+07:00",
+  "report_hash": "57c443a8ff595152cd971843de5e4f8d8073ac960f1376cba493509197bd20b3",
+  "report_bytes": 9760179,
+  "run_id": "f10-20261004-132719-s6610110190-w64h36-b4-e30",
+  "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+  "input_hashes": {
+    "preparation-summary.json": "73b8b5ad28e8d834e4a41534ec8200943d855416393514c8fd7e27a1b8d17e21",
+    "training-summary.json": "cfbc7f9015b15865783d171d1a991aabf724e9d1eebd426939168a623e341fbc",
+    "environment.json": "b15ea553b3b51449f722a2700f99d17561fed156af7084ccb0549fa82e7ca21d",
+    "evaluation-summary.json": "9e6ae11a77c4323b7b9364fb59230677f3ba7f7e5846e6bc47b3a7ebbfd2b15a",
+    "inference-memory.json": "a2af829c9e90a3a9216623132de88e686160b4ff62c7aa9bbf3a2e4261eb68ec",
+    "verification.json": "b74bfce7db79dd3230030b9b506d195e410a79f5004f1f3298fa41c3ea1ba801"
+  },
+  "embedded_images": 15,
+  "external_runtime_resources": 0
+}

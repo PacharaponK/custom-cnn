@@ -1,0 +1,16 @@
+{
+  "epochs": 30,
+  "samples_per_epoch": 743,
+  "global_steps": 5580,
+  "parameters": 29761,
+  "parameter_bytes": 119044,
+  "from_scratch": true,
+  "pretrained_weights_loaded": false,
+  "checkpoint_policy": "final epoch; no test selection",
+  "initial_hash": "a1baa8af636581a4999b54aea53d18faef2648d3b1a14f35e82449b2525ff6b0",
+  "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+  "elapsed_seconds": 38.43038800000022,
+  "initial_epoch_loss": 0.3342284651455616,
+  "final_epoch_loss": 0.026808322789611278,
+  "completed_at": "2026-10-04T13:29:35.505427+07:00"
+}

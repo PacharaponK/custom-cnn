@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "test_masks_recomputed": 400,
+  "checkpoint_reload_prediction_matches": [
+    "frame_0803_f20826.jpg",
+    "frame_1202_f31173.jpg"
+  ],
+  "train_test_hash_overlap": 0,
+  "epochs": 30,
+  "environment_lock_hash": "159fa13e60ae1f925633f32e0e18c487ea68ce5c2d0a802f29a8612da96ca6ec"
+}

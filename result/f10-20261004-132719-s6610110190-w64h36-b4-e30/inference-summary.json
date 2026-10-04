@@ -1,0 +1,12 @@
+{
+  "test_images": 400,
+  "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+  "mask_size": [
+    1280,
+    720
+  ],
+  "probability_threshold": 0.5,
+  "resize_policy": "bilinear probabilities before threshold; align_corners=False",
+  "device": "cuda",
+  "elapsed_seconds": 14.606794799999989
+}

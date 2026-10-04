@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "high",
+    "basename": "frame_0852_f22096.jpg",
+    "iou": 0.9644699877681361,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-high-frame_0852_f22096.png"
+  },
+  {
+    "kind": "high",
+    "basename": "frame_0853_f22122.jpg",
+    "iou": 0.9545455446074226,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-high-frame_0853_f22122.png"
+  },
+  {
+    "kind": "near-threshold",
+    "basename": "frame_1053_f27309.jpg",
+    "iou": 0.6856044478727061,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-near-threshold-frame_1053_f27309.png"
+  },
+  {
+    "kind": "near-threshold",
+    "basename": "frame_0963_f24975.jpg",
+    "iou": 0.6879249053352544,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-near-threshold-frame_0963_f24975.png"
+  },
+  {
+    "kind": "low",
+    "basename": "frame_1080_f28009.jpg",
+    "iou": 0.7067290972322852,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-low-frame_1080_f28009.png"
+  },
+  {
+    "kind": "low",
+    "basename": "frame_1026_f26609.jpg",
+    "iou": 0.7119231181068637,
+    "detected": true,
+    "figure": "result/f10-20261004-132719-s6610110190-w64h36-b4-e30/figures/snapshot-low-frame_1026_f26609.png"
+  }
+]

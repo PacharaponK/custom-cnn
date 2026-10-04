@@ -1,0 +1,63 @@
+{
+  "device": "cuda",
+  "dtype": "float32",
+  "batch_size": 1,
+  "input_wh": [
+    64,
+    36
+  ],
+  "original_image_wh": [
+    1280,
+    720
+  ],
+  "warmup_iterations": 10,
+  "checkpoint_hash": "e24a286dc389d2a5dc66dcc430ded520a6d5c641e1c281c198959e9e1788eda9",
+  "parameters": 29761,
+  "parameter_bytes": 119044,
+  "buffer_bytes": 0,
+  "checkpoint_bytes": 127181,
+  "cold_pre_model_cpu_rss_mib": 483.23046875,
+  "cold_load_and_warmup_gpu": {
+    "peak_allocated_mib": 0.65576171875,
+    "peak_reserved_mib": 2.0
+  },
+  "forward": {
+    "mode": "forward",
+    "repetitions": 100,
+    "rss_sampling_interval_ms": 5,
+    "baseline_cpu_rss_mib": 889.203125,
+    "sampled_peak_cpu_rss_mib": 889.61328125,
+    "gpu": {
+      "baseline_allocated_mib": 0.14599609375,
+      "baseline_reserved_mib": 2.0,
+      "peak_allocated_mib": 0.65576171875,
+      "peak_reserved_mib": 2.0,
+      "incremental_peak_allocated_mib": 0.509765625
+    },
+    "median_latency_ms": 1.084649999938847,
+    "mean_latency_ms": 1.3133899999957066,
+    "min_latency_ms": 0.9359000005133566,
+    "max_latency_ms": 3.901699999914854
+  },
+  "end_to_end": {
+    "mode": "end-to-end",
+    "repetitions": 100,
+    "rss_sampling_interval_ms": 5,
+    "baseline_cpu_rss_mib": 889.69921875,
+    "sampled_peak_cpu_rss_mib": 935.66796875,
+    "gpu": {
+      "baseline_allocated_mib": 0.14599609375,
+      "baseline_reserved_mib": 2.0,
+      "peak_allocated_mib": 5.44580078125,
+      "peak_reserved_mib": 22.0,
+      "incremental_peak_allocated_mib": 5.2998046875
+    },
+    "median_latency_ms": 14.930250000361411,
+    "mean_latency_ms": 16.118730000034702,
+    "min_latency_ms": 13.717599999836239,
+    "max_latency_ms": 49.179600000570645
+  },
+  "gpu_scope": "PyTorch tensors/reserved allocator; excludes CUDA context/driver/non-PyTorch allocations",
+  "rss_scope": "whole process after imports; sampled peak may miss transient spikes",
+  "end_to_end_scope": "read JPEG, RGB resize, forward, sigmoid/upscale/threshold, CPU copy, in-memory PNG encoding; no disk write"
+}

@@ -1,0 +1,17 @@
+{
+  "test_images": 400,
+  "detected_ge_0_6": 400,
+  "detected_gt_0_6": 400,
+  "exact_threshold_images": 0,
+  "detected_rate": 1.0,
+  "mean_iou_detected": 0.8121349416334668,
+  "mean_iou_all": 0.8121349416334668,
+  "median_iou": 0.807719286553796,
+  "min_iou": 0.6856044478727061,
+  "max_iou": 0.9644699877681361,
+  "empty_empty_images": 0,
+  "threshold": 0.6,
+  "main_comparator": ">=",
+  "empty_empty_policy": "IoU=1, count explicitly",
+  "detection_flag_meaning": "GT-based post-inference success, not model confidence"
+}

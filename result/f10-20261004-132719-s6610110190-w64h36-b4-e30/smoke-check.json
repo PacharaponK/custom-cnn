@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "samples": 8,
+  "steps": 100,
+  "initial_loss": 0.6980372667312622,
+  "final_loss": 0.14983977377414703,
+  "parameters": 29761,
+  "passed": true,
+  "weights_reused_for_final": false
+}

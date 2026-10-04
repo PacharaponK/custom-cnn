@@ -1,0 +1,22 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "uv": "uv 0.7.6 (7f3e94a09 2025-05-19)",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0",
+    "tensorboard": "2.21.0",
+    "matplotlib": "3.11.2",
+    "psutil": "7.2.2"
+  },
+  "cuda_available": true,
+  "cuda_runtime": "12.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "logical_cpu_count": 12,
+  "ram_total_bytes": 16867037184,
+  "lockfile_hash": "159fa13e60ae1f925633f32e0e18c487ea68ce5c2d0a802f29a8612da96ca6ec",
+  "started_at": "2026-10-04T13:28:57.348349+07:00"
+}

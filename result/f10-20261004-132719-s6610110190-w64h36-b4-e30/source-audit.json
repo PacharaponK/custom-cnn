@@ -1,0 +1,702 @@
+{
+  "inspection_date": "2026-10-04",
+  "timezone": "Asia/Bangkok",
+  "source": "Local dataset only; no training or model inference performed",
+  "image_files": 1200,
+  "unique_image_basenames": 1148,
+  "unique_image_sha256": 1148,
+  "image_dimensions": {
+    "1280x720": 1200
+  },
+  "xml_files": 9,
+  "annotation_image_records": 1150,
+  "unique_annotated_basenames": 1148,
+  "missing_annotation_basenames": [],
+  "orphan_annotation_basenames": [],
+  "duplicate_image_names": {
+    "frame_0400_f10374.jpg": [
+      "frame2-401/images/frame_0400_f10374.jpg",
+      "frame402-802/400-449_completed/images/frame_0400_f10374.jpg"
+    ],
+    "frame_0401_f10400.jpg": [
+      "frame2-401/images/frame_0401_f10400.jpg",
+      "frame402-802/400-449_completed/images/frame_0401_f10400.jpg"
+    ],
+    "frame_0650_f16858.jpg": [
+      "frame402-802/600-649_completed/images/frame_0650_f16858.jpg",
+      "frame402-802/650-699_completed/images/frame_0650_f16858.jpg"
+    ],
+    "frame_0651_f16883.jpg": [
+      "frame402-802/600-649_completed/images/frame_0651_f16883.jpg",
+      "frame402-802/650-699_completed/images/frame_0651_f16883.jpg"
+    ],
+    "frame_0652_f16909.jpg": [
+      "frame402-802/600-649_completed/images/frame_0652_f16909.jpg",
+      "frame402-802/650-699_completed/images/frame_0652_f16909.jpg"
+    ],
+    "frame_0653_f16935.jpg": [
+      "frame402-802/600-649_completed/images/frame_0653_f16935.jpg",
+      "frame402-802/650-699_completed/images/frame_0653_f16935.jpg"
+    ],
+    "frame_0654_f16961.jpg": [
+      "frame402-802/600-649_completed/images/frame_0654_f16961.jpg",
+      "frame402-802/650-699_completed/images/frame_0654_f16961.jpg"
+    ],
+    "frame_0655_f16987.jpg": [
+      "frame402-802/600-649_completed/images/frame_0655_f16987.jpg",
+      "frame402-802/650-699_completed/images/frame_0655_f16987.jpg"
+    ],
+    "frame_0656_f17013.jpg": [
+      "frame402-802/600-649_completed/images/frame_0656_f17013.jpg",
+      "frame402-802/650-699_completed/images/frame_0656_f17013.jpg"
+    ],
+    "frame_0657_f17039.jpg": [
+      "frame402-802/600-649_completed/images/frame_0657_f17039.jpg",
+      "frame402-802/650-699_completed/images/frame_0657_f17039.jpg"
+    ],
+    "frame_0658_f17065.jpg": [
+      "frame402-802/600-649_completed/images/frame_0658_f17065.jpg",
+      "frame402-802/650-699_completed/images/frame_0658_f17065.jpg"
+    ],
+    "frame_0659_f17091.jpg": [
+      "frame402-802/600-649_completed/images/frame_0659_f17091.jpg",
+      "frame402-802/650-699_completed/images/frame_0659_f17091.jpg"
+    ],
+    "frame_0660_f17117.jpg": [
+      "frame402-802/600-649_completed/images/frame_0660_f17117.jpg",
+      "frame402-802/650-699_completed/images/frame_0660_f17117.jpg"
+    ],
+    "frame_0661_f17143.jpg": [
+      "frame402-802/600-649_completed/images/frame_0661_f17143.jpg",
+      "frame402-802/650-699_completed/images/frame_0661_f17143.jpg"
+    ],
+    "frame_0662_f17169.jpg": [
+      "frame402-802/600-649_completed/images/frame_0662_f17169.jpg",
+      "frame402-802/650-699_completed/images/frame_0662_f17169.jpg"
+    ],
+    "frame_0663_f17195.jpg": [
+      "frame402-802/600-649_completed/images/frame_0663_f17195.jpg",
+      "frame402-802/650-699_completed/images/frame_0663_f17195.jpg"
+    ],
+    "frame_0664_f17221.jpg": [
+      "frame402-802/600-649_completed/images/frame_0664_f17221.jpg",
+      "frame402-802/650-699_completed/images/frame_0664_f17221.jpg"
+    ],
+    "frame_0665_f17247.jpg": [
+      "frame402-802/600-649_completed/images/frame_0665_f17247.jpg",
+      "frame402-802/650-699_completed/images/frame_0665_f17247.jpg"
+    ],
+    "frame_0666_f17272.jpg": [
+      "frame402-802/600-649_completed/images/frame_0666_f17272.jpg",
+      "frame402-802/650-699_completed/images/frame_0666_f17272.jpg"
+    ],
+    "frame_0667_f17298.jpg": [
+      "frame402-802/600-649_completed/images/frame_0667_f17298.jpg",
+      "frame402-802/650-699_completed/images/frame_0667_f17298.jpg"
+    ],
+    "frame_0668_f17324.jpg": [
+      "frame402-802/600-649_completed/images/frame_0668_f17324.jpg",
+      "frame402-802/650-699_completed/images/frame_0668_f17324.jpg"
+    ],
+    "frame_0669_f17350.jpg": [
+      "frame402-802/600-649_completed/images/frame_0669_f17350.jpg",
+      "frame402-802/650-699_completed/images/frame_0669_f17350.jpg"
+    ],
+    "frame_0670_f17376.jpg": [
+      "frame402-802/600-649_completed/images/frame_0670_f17376.jpg",
+      "frame402-802/650-699_completed/images/frame_0670_f17376.jpg"
+    ],
+    "frame_0671_f17402.jpg": [
+      "frame402-802/600-649_completed/images/frame_0671_f17402.jpg",
+      "frame402-802/650-699_completed/images/frame_0671_f17402.jpg"
+    ],
+    "frame_0672_f17428.jpg": [
+      "frame402-802/600-649_completed/images/frame_0672_f17428.jpg",
+      "frame402-802/650-699_completed/images/frame_0672_f17428.jpg"
+    ],
+    "frame_0673_f17454.jpg": [
+      "frame402-802/600-649_completed/images/frame_0673_f17454.jpg",
+      "frame402-802/650-699_completed/images/frame_0673_f17454.jpg"
+    ],
+    "frame_0674_f17480.jpg": [
+      "frame402-802/600-649_completed/images/frame_0674_f17480.jpg",
+      "frame402-802/650-699_completed/images/frame_0674_f17480.jpg"
+    ],
+    "frame_0675_f17506.jpg": [
+      "frame402-802/600-649_completed/images/frame_0675_f17506.jpg",
+      "frame402-802/650-699_completed/images/frame_0675_f17506.jpg"
+    ],
+    "frame_0676_f17532.jpg": [
+      "frame402-802/600-649_completed/images/frame_0676_f17532.jpg",
+      "frame402-802/650-699_completed/images/frame_0676_f17532.jpg"
+    ],
+    "frame_0677_f17558.jpg": [
+      "frame402-802/600-649_completed/images/frame_0677_f17558.jpg",
+      "frame402-802/650-699_completed/images/frame_0677_f17558.jpg"
+    ],
+    "frame_0678_f17584.jpg": [
+      "frame402-802/600-649_completed/images/frame_0678_f17584.jpg",
+      "frame402-802/650-699_completed/images/frame_0678_f17584.jpg"
+    ],
+    "frame_0679_f17610.jpg": [
+      "frame402-802/600-649_completed/images/frame_0679_f17610.jpg",
+      "frame402-802/650-699_completed/images/frame_0679_f17610.jpg"
+    ],
+    "frame_0680_f17636.jpg": [
+      "frame402-802/600-649_completed/images/frame_0680_f17636.jpg",
+      "frame402-802/650-699_completed/images/frame_0680_f17636.jpg"
+    ],
+    "frame_0681_f17661.jpg": [
+      "frame402-802/600-649_completed/images/frame_0681_f17661.jpg",
+      "frame402-802/650-699_completed/images/frame_0681_f17661.jpg"
+    ],
+    "frame_0682_f17687.jpg": [
+      "frame402-802/600-649_completed/images/frame_0682_f17687.jpg",
+      "frame402-802/650-699_completed/images/frame_0682_f17687.jpg"
+    ],
+    "frame_0683_f17713.jpg": [
+      "frame402-802/600-649_completed/images/frame_0683_f17713.jpg",
+      "frame402-802/650-699_completed/images/frame_0683_f17713.jpg"
+    ],
+    "frame_0684_f17739.jpg": [
+      "frame402-802/600-649_completed/images/frame_0684_f17739.jpg",
+      "frame402-802/650-699_completed/images/frame_0684_f17739.jpg"
+    ],
+    "frame_0685_f17765.jpg": [
+      "frame402-802/600-649_completed/images/frame_0685_f17765.jpg",
+      "frame402-802/650-699_completed/images/frame_0685_f17765.jpg"
+    ],
+    "frame_0686_f17791.jpg": [
+      "frame402-802/600-649_completed/images/frame_0686_f17791.jpg",
+      "frame402-802/650-699_completed/images/frame_0686_f17791.jpg"
+    ],
+    "frame_0687_f17817.jpg": [
+      "frame402-802/600-649_completed/images/frame_0687_f17817.jpg",
+      "frame402-802/650-699_completed/images/frame_0687_f17817.jpg"
+    ],
+    "frame_0688_f17843.jpg": [
+      "frame402-802/600-649_completed/images/frame_0688_f17843.jpg",
+      "frame402-802/650-699_completed/images/frame_0688_f17843.jpg"
+    ],
+    "frame_0689_f17869.jpg": [
+      "frame402-802/600-649_completed/images/frame_0689_f17869.jpg",
+      "frame402-802/650-699_completed/images/frame_0689_f17869.jpg"
+    ],
+    "frame_0690_f17895.jpg": [
+      "frame402-802/600-649_completed/images/frame_0690_f17895.jpg",
+      "frame402-802/650-699_completed/images/frame_0690_f17895.jpg"
+    ],
+    "frame_0691_f17921.jpg": [
+      "frame402-802/600-649_completed/images/frame_0691_f17921.jpg",
+      "frame402-802/650-699_completed/images/frame_0691_f17921.jpg"
+    ],
+    "frame_0692_f17947.jpg": [
+      "frame402-802/600-649_completed/images/frame_0692_f17947.jpg",
+      "frame402-802/650-699_completed/images/frame_0692_f17947.jpg"
+    ],
+    "frame_0693_f17973.jpg": [
+      "frame402-802/600-649_completed/images/frame_0693_f17973.jpg",
+      "frame402-802/650-699_completed/images/frame_0693_f17973.jpg"
+    ],
+    "frame_0694_f17999.jpg": [
+      "frame402-802/600-649_completed/images/frame_0694_f17999.jpg",
+      "frame402-802/650-699_completed/images/frame_0694_f17999.jpg"
+    ],
+    "frame_0695_f18025.jpg": [
+      "frame402-802/600-649_completed/images/frame_0695_f18025.jpg",
+      "frame402-802/650-699_completed/images/frame_0695_f18025.jpg"
+    ],
+    "frame_0696_f18050.jpg": [
+      "frame402-802/600-649_completed/images/frame_0696_f18050.jpg",
+      "frame402-802/650-699_completed/images/frame_0696_f18050.jpg"
+    ],
+    "frame_0697_f18076.jpg": [
+      "frame402-802/600-649_completed/images/frame_0697_f18076.jpg",
+      "frame402-802/650-699_completed/images/frame_0697_f18076.jpg"
+    ],
+    "frame_0698_f18102.jpg": [
+      "frame402-802/600-649_completed/images/frame_0698_f18102.jpg",
+      "frame402-802/650-699_completed/images/frame_0698_f18102.jpg"
+    ],
+    "frame_0699_f18128.jpg": [
+      "frame402-802/600-649_completed/images/frame_0699_f18128.jpg",
+      "frame402-802/650-699_completed/images/frame_0699_f18128.jpg"
+    ]
+  },
+  "duplicate_image_hash_groups": [
+    [
+      "frame2-401/images/frame_0400_f10374.jpg",
+      "frame402-802/400-449_completed/images/frame_0400_f10374.jpg"
+    ],
+    [
+      "frame2-401/images/frame_0401_f10400.jpg",
+      "frame402-802/400-449_completed/images/frame_0401_f10400.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0650_f16858.jpg",
+      "frame402-802/650-699_completed/images/frame_0650_f16858.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0651_f16883.jpg",
+      "frame402-802/650-699_completed/images/frame_0651_f16883.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0652_f16909.jpg",
+      "frame402-802/650-699_completed/images/frame_0652_f16909.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0653_f16935.jpg",
+      "frame402-802/650-699_completed/images/frame_0653_f16935.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0654_f16961.jpg",
+      "frame402-802/650-699_completed/images/frame_0654_f16961.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0655_f16987.jpg",
+      "frame402-802/650-699_completed/images/frame_0655_f16987.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0656_f17013.jpg",
+      "frame402-802/650-699_completed/images/frame_0656_f17013.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0657_f17039.jpg",
+      "frame402-802/650-699_completed/images/frame_0657_f17039.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0658_f17065.jpg",
+      "frame402-802/650-699_completed/images/frame_0658_f17065.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0659_f17091.jpg",
+      "frame402-802/650-699_completed/images/frame_0659_f17091.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0660_f17117.jpg",
+      "frame402-802/650-699_completed/images/frame_0660_f17117.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0661_f17143.jpg",
+      "frame402-802/650-699_completed/images/frame_0661_f17143.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0662_f17169.jpg",
+      "frame402-802/650-699_completed/images/frame_0662_f17169.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0663_f17195.jpg",
+      "frame402-802/650-699_completed/images/frame_0663_f17195.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0664_f17221.jpg",
+      "frame402-802/650-699_completed/images/frame_0664_f17221.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0665_f17247.jpg",
+      "frame402-802/650-699_completed/images/frame_0665_f17247.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0666_f17272.jpg",
+      "frame402-802/650-699_completed/images/frame_0666_f17272.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0667_f17298.jpg",
+      "frame402-802/650-699_completed/images/frame_0667_f17298.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0668_f17324.jpg",
+      "frame402-802/650-699_completed/images/frame_0668_f17324.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0669_f17350.jpg",
+      "frame402-802/650-699_completed/images/frame_0669_f17350.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0670_f17376.jpg",
+      "frame402-802/650-699_completed/images/frame_0670_f17376.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0671_f17402.jpg",
+      "frame402-802/650-699_completed/images/frame_0671_f17402.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0672_f17428.jpg",
+      "frame402-802/650-699_completed/images/frame_0672_f17428.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0673_f17454.jpg",
+      "frame402-802/650-699_completed/images/frame_0673_f17454.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0674_f17480.jpg",
+      "frame402-802/650-699_completed/images/frame_0674_f17480.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0675_f17506.jpg",
+      "frame402-802/650-699_completed/images/frame_0675_f17506.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0676_f17532.jpg",
+      "frame402-802/650-699_completed/images/frame_0676_f17532.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0677_f17558.jpg",
+      "frame402-802/650-699_completed/images/frame_0677_f17558.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0678_f17584.jpg",
+      "frame402-802/650-699_completed/images/frame_0678_f17584.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0679_f17610.jpg",
+      "frame402-802/650-699_completed/images/frame_0679_f17610.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0680_f17636.jpg",
+      "frame402-802/650-699_completed/images/frame_0680_f17636.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0681_f17661.jpg",
+      "frame402-802/650-699_completed/images/frame_0681_f17661.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0682_f17687.jpg",
+      "frame402-802/650-699_completed/images/frame_0682_f17687.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0683_f17713.jpg",
+      "frame402-802/650-699_completed/images/frame_0683_f17713.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0684_f17739.jpg",
+      "frame402-802/650-699_completed/images/frame_0684_f17739.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0685_f17765.jpg",
+      "frame402-802/650-699_completed/images/frame_0685_f17765.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0686_f17791.jpg",
+      "frame402-802/650-699_completed/images/frame_0686_f17791.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0687_f17817.jpg",
+      "frame402-802/650-699_completed/images/frame_0687_f17817.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0688_f17843.jpg",
+      "frame402-802/650-699_completed/images/frame_0688_f17843.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0689_f17869.jpg",
+      "frame402-802/650-699_completed/images/frame_0689_f17869.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0690_f17895.jpg",
+      "frame402-802/650-699_completed/images/frame_0690_f17895.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0691_f17921.jpg",
+      "frame402-802/650-699_completed/images/frame_0691_f17921.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0692_f17947.jpg",
+      "frame402-802/650-699_completed/images/frame_0692_f17947.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0693_f17973.jpg",
+      "frame402-802/650-699_completed/images/frame_0693_f17973.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0694_f17999.jpg",
+      "frame402-802/650-699_completed/images/frame_0694_f17999.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0695_f18025.jpg",
+      "frame402-802/650-699_completed/images/frame_0695_f18025.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0696_f18050.jpg",
+      "frame402-802/650-699_completed/images/frame_0696_f18050.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0697_f18076.jpg",
+      "frame402-802/650-699_completed/images/frame_0697_f18076.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0698_f18102.jpg",
+      "frame402-802/650-699_completed/images/frame_0698_f18102.jpg"
+    ],
+    [
+      "frame402-802/600-649_completed/images/frame_0699_f18128.jpg",
+      "frame402-802/650-699_completed/images/frame_0699_f18128.jpg"
+    ]
+  ],
+  "duplicate_annotation_records": [
+    {
+      "basename": "frame_0400_f10374.jpg",
+      "xmls": [
+        "frame2-401/annotations.xml",
+        "frame402-802/400-449_completed/annotations.xml"
+      ],
+      "identical_lane_masks": false
+    },
+    {
+      "basename": "frame_0401_f10400.jpg",
+      "xmls": [
+        "frame2-401/annotations.xml",
+        "frame402-802/400-449_completed/annotations.xml"
+      ],
+      "identical_lane_masks": false
+    }
+  ],
+  "shape_counts": {
+    "polyline:track-line": 3460,
+    "polygon:lane": 2294,
+    "polygon:sideway": 2302,
+    "box:track-line": 3454,
+    "box:lane": 2301,
+    "box:sideway": 800,
+    "polygon:track-line": 4
+  },
+  "invalid_polygons": [
+    {
+      "xml": "frame803-1202/annotations-400-images.xml",
+      "image": "frame_0843_f21863.jpg",
+      "label": "sideway",
+      "points": "0.00,305.00;0.00,305.00;0.00,360.00;0.00,450.00;0.00,540.00;0.00,630.00;0.00,720.00;0.00,720.00",
+      "area": 0.0
+    },
+    {
+      "xml": "frame803-1202/annotations-400-images.xml",
+      "image": "frame_0844_f21889.jpg",
+      "label": "sideway",
+      "points": "0.00,310.00;0.00,310.00;0.00,380.00;0.00,470.00;0.00,555.00;0.00,640.00;0.00,720.00;0.00,720.00",
+      "area": 0.0
+    }
+  ],
+  "unexpected_polygon_labels": [
+    {
+      "xml": "frame402-802/450-499_completed/annotations.xml",
+      "image": "frame_0451_f11697.jpg",
+      "label": "track-line",
+      "points": "638.00,217.00;646.00,220.00;658.00,230.00;665.00,253.00;667.00,270.00;662.00,279.00;656.00,302.00;622.00,391.00;616.00,413.00;598.00,456.00;601.00,463.00;608.00,468.00;604.00,471.00;597.00,471.00;587.00,482.00;577.00,512.00;563.00,541.00;552.00,575.00;522.00,642.00;511.00,675.00;502.00,692.00;497.00,706.00;498.00,715.00;502.00,717.00;699.00,716.00;741.00,717.00;742.00,720.00;744.00,717.00;760.00,716.00;881.00,717.00;882.00,720.00;884.00,717.00;921.00,717.00;922.00,720.00;924.00,717.00;927.00,717.00;928.00,720.00;935.00,720.00;936.00,717.00;939.00,717.00;940.00,720.00;945.00,720.00;946.00,717.00;950.00,717.00;951.00,720.00;954.00,720.00;955.00,717.00;961.00,717.00;962.00,720.00;964.00,717.00;970.00,717.00;971.00,720.00;974.00,720.00;975.00,717.00;981.00,717.00;982.00,720.00;984.00,717.00;990.00,717.00;991.00,720.00;994.00,720.00;995.00,717.00;1000.00,717.00;1001.00,720.00;1004.00,720.00;1005.00,717.00;1011.00,717.00;1012.00,720.00;1014.00,717.00;1040.00,717.00;1041.00,720.00;1044.00,717.00;1050.00,717.00;1051.00,720.00;1054.00,720.00;1055.00,717.00;1071.00,717.00;1072.00,720.00;1074.00,717.00;1080.00,717.00;1081.00,720.00;1084.00,720.00;1085.00,717.00;1089.00,717.00;1090.00,720.00;1096.00,720.00;1097.00,717.00;1100.00,720.00;1104.00,720.00;1105.00,717.00;1110.00,717.00;1111.00,720.00;1115.00,720.00;1116.00,717.00;1119.00,717.00;1120.00,720.00;1126.00,720.00;1127.00,717.00;1129.00,720.00;1136.00,720.00;1137.00,717.00;1139.00,720.00;1146.00,720.00;1147.00,717.00;1149.00,720.00;1157.00,720.00;1158.00,717.00;1159.00,720.00;1165.00,720.00;1166.00,717.00;1169.00,720.00;1186.00,720.00;1187.00,717.00;1189.00,720.00;1280.00,720.00;1280.00,455.00;1230.00,430.00;1102.00,375.00;1085.00,365.00;1061.00,356.00;1040.00,345.00;1024.00,340.00;999.00,327.00;958.00,310.00;953.00,310.00;940.00,302.00;921.00,296.00;906.00,287.00;884.00,280.00;877.00,275.00;824.00,257.00;801.00,246.00;758.00,233.00;714.00,224.00;692.00,222.00;667.00,215.00;651.00,214.00"
+    },
+    {
+      "xml": "frame402-802/450-499_completed/annotations.xml",
+      "image": "frame_0451_f11697.jpg",
+      "label": "track-line",
+      "points": "648.00,231.00;624.00,220.00;602.00,215.00;597.00,221.00;592.00,222.00;591.00,232.00;571.00,248.00;542.00,263.00;521.00,271.00;431.00,316.00;362.00,345.00;358.00,345.00;305.00,369.00;293.00,377.00;267.00,386.00;182.00,428.00;177.00,428.00;162.00,437.00;155.00,438.00;142.00,447.00;137.00,447.00;122.00,456.00;117.00,456.00;103.00,465.00;97.00,465.00;63.00,484.00;57.00,485.00;22.00,504.00;0.00,513.00;0.00,716.00;163.00,717.00;177.00,713.00;181.00,715.00;215.00,717.00;231.00,714.00;236.00,710.00;241.00,716.00;439.00,716.00;446.00,708.00;488.00,624.00;502.00,591.00;513.00,573.00;523.00,548.00;528.00,543.00;542.00,509.00;547.00,503.00;556.00,484.00;558.00,475.00;566.00,463.00;592.00,408.00;621.00,337.00;648.00,283.00;648.00,276.00;654.00,264.00;653.00,245.00"
+    },
+    {
+      "xml": "frame402-802/450-499_completed/annotations.xml",
+      "image": "frame_0452_f11722.jpg",
+      "label": "track-line",
+      "points": "598.00,212.00;610.00,220.00;617.00,222.00;627.00,234.00;631.00,256.00;630.00,272.00;623.00,296.00;619.00,301.00;607.00,336.00;579.00,402.00;568.00,435.00;557.00,456.00;523.00,546.00;511.00,570.00;503.00,595.00;494.00,611.00;472.00,667.00;468.00,672.00;464.00,686.00;458.00,696.00;453.00,710.00;455.00,720.00;477.00,720.00;478.00,717.00;510.00,717.00;511.00,720.00;519.00,720.00;520.00,717.00;526.00,717.00;528.00,720.00;529.00,717.00;631.00,716.00;879.00,717.00;880.00,720.00;895.00,720.00;899.00,716.00;901.00,720.00;909.00,720.00;909.00,717.00;904.00,713.00;904.00,707.00;907.00,704.00;911.00,709.00;913.00,720.00;922.00,720.00;923.00,717.00;926.00,717.00;928.00,720.00;929.00,717.00;1280.00,716.00;1280.00,456.00;1243.00,437.00;1208.00,423.00;1201.00,418.00;1186.00,414.00;1158.00,399.00;1148.00,398.00;1134.00,389.00;1128.00,388.00;1110.00,378.00;1097.00,374.00;1066.00,359.00;1050.00,354.00;1039.00,347.00;1017.00,338.00;1008.00,337.00;998.00,329.00;988.00,327.00;970.00,319.00;961.00,318.00;922.00,299.00;908.00,297.00;900.00,291.00;873.00,279.00;843.00,268.00;825.00,264.00;819.00,260.00;809.00,258.00;766.00,240.00;706.00,225.00;656.00,218.00;624.00,209.00;601.00,210.00"
+    },
+    {
+      "xml": "frame402-802/450-499_completed/annotations.xml",
+      "image": "frame_0452_f11722.jpg",
+      "label": "track-line",
+      "points": "613.00,229.00;583.00,215.00;564.00,216.00;559.00,221.00;558.00,230.00;553.00,236.00;501.00,266.00;471.00,278.00;413.00,307.00;407.00,308.00;392.00,318.00;387.00,318.00;372.00,327.00;358.00,332.00;353.00,337.00;347.00,337.00;312.00,355.00;298.00,359.00;242.00,385.00;237.00,385.00;150.00,426.00;136.00,430.00;102.00,448.00;97.00,448.00;23.00,485.00;0.00,494.00;0.00,716.00;299.00,717.00;314.00,716.00;318.00,713.00;324.00,716.00;393.00,717.00;404.00,704.00;415.00,678.00;424.00,665.00;436.00,638.00;467.00,582.00;482.00,548.00;487.00,543.00;492.00,528.00;526.00,462.00;538.00,433.00;613.00,283.00;618.00,266.00;618.00,236.00"
+    }
+  ],
+  "unreadable_images": [],
+  "groups": [
+    {
+      "xml": "frame2-401/annotations.xml",
+      "image_records": 400,
+      "shapes": {
+        "polyline:track-line": 1200,
+        "polygon:lane": 800,
+        "polygon:sideway": 800,
+        "box:track-line": 1201,
+        "box:lane": 801,
+        "box:sideway": 800
+      },
+      "frame_min": 2,
+      "frame_max": 401,
+      "image_files_under_xml_parent": 400
+    },
+    {
+      "xml": "frame402-802/400-449_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "polygon:lane": 100,
+        "box:lane": 100,
+        "polyline:track-line": 152,
+        "box:track-line": 150,
+        "polygon:sideway": 100
+      },
+      "frame_min": 400,
+      "frame_max": 449,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame402-802/450-499_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "box:lane": 100,
+        "polygon:sideway": 100,
+        "polygon:lane": 96,
+        "box:track-line": 152,
+        "polyline:track-line": 150,
+        "polygon:track-line": 4
+      },
+      "frame_min": 450,
+      "frame_max": 499,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame402-802/500-549_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "box:track-line": 150,
+        "polyline:track-line": 157,
+        "polygon:lane": 98,
+        "polygon:sideway": 102,
+        "box:lane": 100
+      },
+      "frame_min": 500,
+      "frame_max": 549,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame402-802/550-599_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "polyline:track-line": 150,
+        "polygon:lane": 100,
+        "polygon:sideway": 100,
+        "box:lane": 100,
+        "box:track-line": 150
+      },
+      "frame_min": 550,
+      "frame_max": 599,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame402-802/600-649_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "polygon:lane": 100,
+        "polyline:track-line": 150,
+        "box:track-line": 150,
+        "box:lane": 100,
+        "polygon:sideway": 100
+      },
+      "frame_min": 600,
+      "frame_max": 649,
+      "image_files_under_xml_parent": 100
+    },
+    {
+      "xml": "frame402-802/650-699_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "box:track-line": 150,
+        "polyline:track-line": 150,
+        "polygon:lane": 100,
+        "polygon:sideway": 100,
+        "box:lane": 100
+      },
+      "frame_min": 650,
+      "frame_max": 699,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame402-802/700-749_completed/annotations.xml",
+      "image_records": 50,
+      "shapes": {
+        "box:track-line": 151,
+        "polyline:track-line": 151,
+        "polygon:lane": 100,
+        "polygon:sideway": 100,
+        "box:lane": 100
+      },
+      "frame_min": 700,
+      "frame_max": 749,
+      "image_files_under_xml_parent": 50
+    },
+    {
+      "xml": "frame803-1202/annotations-400-images.xml",
+      "image_records": 400,
+      "shapes": {
+        "polygon:lane": 800,
+        "polygon:sideway": 800,
+        "polyline:track-line": 1200,
+        "box:track-line": 1200,
+        "box:lane": 800
+      },
+      "frame_min": 803,
+      "frame_max": 1202,
+      "image_files_under_xml_parent": 400
+    }
+  ],
+  "lane_polygon_count_distribution": {
+    "2": 1147,
+    "0": 3
+  },
+  "frame_gaps_between_2_and_1202": [
+    750,
+    751,
+    752,
+    753,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    763,
+    764,
+    765,
+    766,
+    767,
+    768,
+    769,
+    770,
+    771,
+    772,
+    773,
+    774,
+    775,
+    776,
+    777,
+    778,
+    779,
+    780,
+    781,
+    782,
+    783,
+    784,
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793,
+    794,
+    795,
+    796,
+    797,
+    798,
+    799,
+    800,
+    801,
+    802
+  ],
+  "polygon_validation_scope": "finite numeric coordinates, >=3 points, positive shoelace area, 0<=x<=width and 0<=y<=height; no full self-intersection or label-quality validation",
+  "zero_lane_polygon_images": [
+    "frame_0451_f11697.jpg",
+    "frame_0452_f11722.jpg",
+    "frame_0544_f14108.jpg"
+  ],
+  "conservative_candidate_images": 1143
+}

@@ -1,0 +1,44 @@
+{
+  "source_image_files": 1200,
+  "unique_image_names": 1148,
+  "duplicate_copies_removed": 52,
+  "excluded_images": [
+    {
+      "basename": "frame_0400_f10374.jpg",
+      "frame": 400,
+      "reason": "conflicting_gt"
+    },
+    {
+      "basename": "frame_0401_f10400.jpg",
+      "frame": 401,
+      "reason": "conflicting_gt"
+    },
+    {
+      "basename": "frame_0451_f11697.jpg",
+      "frame": 451,
+      "reason": "uncertain_lane_label"
+    },
+    {
+      "basename": "frame_0452_f11722.jpg",
+      "frame": 452,
+      "reason": "uncertain_lane_label"
+    },
+    {
+      "basename": "frame_0544_f14108.jpg",
+      "frame": 544,
+      "reason": "uncertain_lane_label"
+    }
+  ],
+  "candidate_images": 1143,
+  "train_images": 743,
+  "test_images": 400,
+  "polygon_target": "lane area only",
+  "mask_values": [
+    0,
+    255
+  ],
+  "rasterization": "PIL polygon fill; clip x/y to pixel bounds; YOLO roundtrip rounded to source 0.01 px",
+  "roundtrip_mismatches": 0,
+  "manifest_hash": "2619adc2a95a3a18cca1bc16efa53881044c6f7cc09ecbc4fa9b08243edd39bf",
+  "elapsed_seconds": 24.475030499999775
+}
